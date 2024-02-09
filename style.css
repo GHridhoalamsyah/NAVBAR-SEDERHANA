@@ -1,0 +1,139 @@
+/* ALL SELECTOR */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* 
+ NAVBAR BUATAN SAYA */
+.navbarbuatansaya-adahul{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 20, 156);
+    /* padding: 5px; */
+    margin: 5px;
+    border: 4px solid black;
+}
+
+.navbarbuatansaya-adahli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+}
+
+/* .navbarbuatansaya-adaha{
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+} */
+
+
+.navbarbuatansaya-adahli li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 650;
+    text-decoration: underline black 2px;
+}
+
+/* .navbarbuatansaya-adaha:hover{
+    background-color: black;
+    color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+} */
+
+.navbarbuatansaya-adahli li:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(90, 20, 156);
+    border: 3px solid rgb(233, 230, 230);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+}
+
+/*  NAVBAR BUATAN SAYA END */
+
+/* NAVBAR DEA AFRIZAL 1 */
+.navbarbuatandeaafizal-adahnav{
+    background-color: rgba(66, 60, 60, 0.884);
+    justify-content: space-between;
+    margin: 5px;
+    border: 3px solid rgb(235, 44, 44);
+    border-radius: 4px;
+}
+
+.navbarbuatandeaafizal-adahdivdanul{
+    font-size: 20px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.navbarbuatandeaafizal-judul{
+    display: flex;
+    color: rgb(236, 227, 227);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    flex-direction: row;
+}
+
+.judulpertama{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.judulkedua{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.navbarbuatandeaafizal-adahlidana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarbuatandeaafizal-adahlidana a{
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 700;
+    text-decoration: underline red 3px;
+}
+
+.navbarbuatandeaafizal-adahlidana a:hover{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 4px;
+    transition-delay: 0.3s;
+    cursor: pointer;
+}
+/* NAVBAR DEA AFRIZAL 1 END*/
